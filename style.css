@@ -175,7 +175,7 @@ body {
   /* 👇 PERFECT CENTER RELATIVE TO STAGE */
   top: 90%;
   left: 45%;
-  width: 0px;
+  width: 90px;
 
   transform: translate(0%, 40%);
 
@@ -197,8 +197,10 @@ body {
   font-size: 18px;
   font-weight: bold;
 
-  background: rgba(0, 0, 0, 0.65);
-  color: #fff;
+  /* background: rgba(0, 0, 0, 0.65);
+  color: #fff; */
+  background: rgba(247, 246, 246, 0.65);
+  color: #0d0d0d;
 
   border: none;
   border-radius: 6px;
@@ -206,5 +208,6 @@ body {
 }
 
 .nav-buttons button:hover {
-  background: rgba(0, 0, 0, 0.85);
+  background:   rgba(233, 198, 198, 0.85);
+  /* background: rgba(0, 0, 0, 0.85); */
 }
