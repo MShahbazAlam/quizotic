@@ -174,10 +174,10 @@ body {
 
   /* 👇 PERFECT CENTER RELATIVE TO STAGE */
   top: 90%;
-  left: 55%;
-  width: 1350px;
+  left: 35%;
+  width: 850px;
 
-  transform: translate(-55%, 50%);
+  transform: translate(-25%, 40%);
 
   display: flex;
   justify-content: space-between;
