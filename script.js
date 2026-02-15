@@ -370,5 +370,25 @@ function nextQuestion() {
   
   loadSlide();
   
+  function scaleStage() {
+    const stage = document.getElementById("stage");
+  
+    const scaleX = window.innerWidth / 1280;
+    const scaleY = window.innerHeight / 720;
+  
+    const scale = Math.min(scaleX, scaleY);
+  
+    stage.style.transform = `scale(${scale})`;
+  }
+  
+  window.addEventListener("resize", scaleStage);
+  scaleStage();
 
-loadQuestion();
+  
+  document.addEventListener("keydown", e => {
+    if (e.key === "f") {
+      document.documentElement.requestFullscreen();
+    }
+  });
+  
+//loadQuestion();
